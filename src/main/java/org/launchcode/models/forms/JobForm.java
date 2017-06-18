@@ -23,13 +23,13 @@ public class JobForm {
     private int employerId;
 
     @NotNull
-    private String locationId;
+    private int locationId;
 
     @NotNull
-    private String coreCompetencyId;
+    private int coreCompetencyId;
 
     @NotNull
-    private String positionTypeId;
+    private int positionTypeId;
 
     /*
         TODO #3 - Included other fields needed to create a job,
@@ -57,27 +57,27 @@ public class JobForm {
 
     }
 
-    public String getLocationId() {
+    public int getLocationId() {
         return locationId;
     }
 
-    public void setLocationId(String locationId) {
+    public void setLocationId(int locationId) {
         this.locationId = locationId;
     }
 
-    public String getCoreCompetencyId() {
+    public int getCoreCompetencyId() {
         return coreCompetencyId;
     }
 
-    public void setCoreCompetencyId(String coreCompetencyId) {
+    public void setCoreCompetencyId(int coreCompetencyId) {
         this.coreCompetencyId = coreCompetencyId;
     }
 
-    public String getPositionTypeId() {
+    public int getPositionTypeId() {
         return positionTypeId;
     }
 
-    public void setPositionTypeId(String positionTypeId) {
+    public void setPositionTypeId(int positionTypeId) {
         this.positionTypeId = positionTypeId;
     }
 
